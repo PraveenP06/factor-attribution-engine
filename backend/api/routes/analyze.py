@@ -1,7 +1,13 @@
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel, field_validator
-from typing import Union
+from pydantic import BaseModel, Field, field_validator
+from typing import Annotated, Union
 import json
+import logging
+import re
+
+logger = logging.getLogger(__name__)
+
+_TICKER_RE = re.compile(r"^[A-Z0-9.\-]{1,10}$")
 
 from src.attribution.single import run_single_attribution
 from src.attribution.portfolio import compute_portfolio_returns
@@ -16,14 +22,25 @@ from src.reporting.plots import factor_loadings_chart, rolling_beta_chart, actua
 router = APIRouter()
 
 
+_DATE_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
+
+
 class WeightedTicker(BaseModel):
     ticker: str
     weight: float
 
+    @field_validator("ticker")
+    @classmethod
+    def validate_ticker(cls, v: str) -> str:
+        upper = v.upper()
+        if not _TICKER_RE.match(upper):
+            raise ValueError("ticker must be 1-10 uppercase alphanumeric characters")
+        return upper
+
 
 class AnalyzeRequest(BaseModel):
     mode: str
-    tickers: list[Union[str, WeightedTicker]]
+    tickers: Annotated[list[Union[str, WeightedTicker]], Field(min_length=1, max_length=20)]
     model: str = "ff3"
     start: str = "2015-01"
     end: str = "2024-12"
@@ -42,6 +59,27 @@ class AnalyzeRequest(BaseModel):
         if v not in ("single", "portfolio"):
             raise ValueError("mode must be 'single' or 'portfolio'")
         return v
+
+    @field_validator("start", "end")
+    @classmethod
+    def validate_date(cls, v: str) -> str:
+        if not _DATE_RE.match(v):
+            raise ValueError("date must be in YYYY-MM format")
+        return v
+
+    @field_validator("tickers", mode="before")
+    @classmethod
+    def validate_tickers(cls, v: list) -> list:
+        validated = []
+        for t in v:
+            if isinstance(t, str):
+                upper = t.upper()
+                if not _TICKER_RE.match(upper):
+                    raise ValueError(f"invalid ticker: {t!r}")
+                validated.append(upper)
+            else:
+                validated.append(t)
+        return validated
 
 
 def _to_api_date(period: str) -> str:
@@ -97,7 +135,8 @@ def analyze(request: AnalyzeRequest) -> dict:
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Analysis failed: {str(exc)}") from exc
+        logger.exception("analyze request failed")
+        raise HTTPException(status_code=500, detail="Internal error") from exc
 
     factor_cols_list = list(ols.betas.keys())
     coefficients = [
