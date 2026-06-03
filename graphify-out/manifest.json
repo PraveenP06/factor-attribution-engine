@@ -1,0 +1,227 @@
+{
+  "/Users/praveen/Desktop/factor-attribution-engine/.claude/settings.local.json": {
+    "mtime": 1780459625.8727117,
+    "ast_hash": "e7614f93e9217a924cd8d6b4a37d7ac0",
+    "semantic_hash": "e7614f93e9217a924cd8d6b4a37d7ac0"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/api/__init__.py": {
+    "mtime": 1780458556.7586687,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/api/main.py": {
+    "mtime": 1780459155.737746,
+    "ast_hash": "de5b544646831ffc06a390b143e83493",
+    "semantic_hash": "de5b544646831ffc06a390b143e83493"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/api/routes/__init__.py": {
+    "mtime": 1780458556.7586975,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/api/routes/analyze.py": {
+    "mtime": 1780459178.877835,
+    "ast_hash": "9081e4d0b35f65c9435eba0be083a1b7",
+    "semantic_hash": "9081e4d0b35f65c9435eba0be083a1b7"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/__init__.py": {
+    "mtime": 1780458556.7584898,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/attribution/__init__.py": {
+    "mtime": 1780458556.7586079,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/attribution/portfolio.py": {
+    "mtime": 1780458814.5629735,
+    "ast_hash": "21eda06ff3bd97a3ac53e300979df1c7",
+    "semantic_hash": "21eda06ff3bd97a3ac53e300979df1c7"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/attribution/single.py": {
+    "mtime": 1780459118.5558455,
+    "ast_hash": "9892c84c3846ddd315c9bf707324b149",
+    "semantic_hash": "9892c84c3846ddd315c9bf707324b149"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/data/__init__.py": {
+    "mtime": 1780458556.7585413,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/data/align.py": {
+    "mtime": 1780458792.6690893,
+    "ast_hash": "45e108c694c0c2ae621655d1563e720e",
+    "semantic_hash": "45e108c694c0c2ae621655d1563e720e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/data/french.py": {
+    "mtime": 1780459086.5318933,
+    "ast_hash": "dd23987888675210c6ef3c5e42e844e4",
+    "semantic_hash": "dd23987888675210c6ef3c5e42e844e4"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/data/prices.py": {
+    "mtime": 1780458786.5344982,
+    "ast_hash": "df0bd241f07de559ea8cec8114876d56",
+    "semantic_hash": "df0bd241f07de559ea8cec8114876d56"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/models/__init__.py": {
+    "mtime": 1780458556.7585738,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/models/ols.py": {
+    "mtime": 1780459051.6176262,
+    "ast_hash": "9e732239ed818b4ad8f4f2e3ab95edd7",
+    "semantic_hash": "9e732239ed818b4ad8f4f2e3ab95edd7"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/models/rolling.py": {
+    "mtime": 1780458808.2243352,
+    "ast_hash": "628e4ae3513695109dccbd0a238477ee",
+    "semantic_hash": "628e4ae3513695109dccbd0a238477ee"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/reporting/__init__.py": {
+    "mtime": 1780458556.7586358,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/reporting/plots.py": {
+    "mtime": 1780459148.375497,
+    "ast_hash": "65a997862dcf21dd30d8966231ba3e74",
+    "semantic_hash": "65a997862dcf21dd30d8966231ba3e74"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/src/reporting/tables.py": {
+    "mtime": 1780458824.554288,
+    "ast_hash": "a06c258d0a8698bf503bbcd531f6a6da",
+    "semantic_hash": "a06c258d0a8698bf503bbcd531f6a6da"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/__init__.py": {
+    "mtime": 1780458556.7587256,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/conftest.py": {
+    "mtime": 1780458683.7460778,
+    "ast_hash": "2c1f7dcbac3d1bfdeb3640093b9f0c5d",
+    "semantic_hash": "2c1f7dcbac3d1bfdeb3640093b9f0c5d"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_align.py": {
+    "mtime": 1780458699.5515492,
+    "ast_hash": "593f485a669a73a4f69336e08f5c6d15",
+    "semantic_hash": "593f485a669a73a4f69336e08f5c6d15"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_french.py": {
+    "mtime": 1780458950.1073709,
+    "ast_hash": "d269011f6f30b64d4199c19877667e80",
+    "semantic_hash": "d269011f6f30b64d4199c19877667e80"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_ols.py": {
+    "mtime": 1780458733.9350815,
+    "ast_hash": "c7f1c38f1d2f688a5f631d906ce7615a",
+    "semantic_hash": "c7f1c38f1d2f688a5f631d906ce7615a"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_plots.py": {
+    "mtime": 1780459208.2667618,
+    "ast_hash": "e19f2ca4167b2afd8ae431f93b54be8d",
+    "semantic_hash": "e19f2ca4167b2afd8ae431f93b54be8d"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_portfolio.py": {
+    "mtime": 1780458754.0839307,
+    "ast_hash": "7cbb4bc2afe826898f3c31d787681f70",
+    "semantic_hash": "7cbb4bc2afe826898f3c31d787681f70"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_prices.py": {
+    "mtime": 1780459259.2248173,
+    "ast_hash": "2336a3eb2524c8e5e08264ec338a799f",
+    "semantic_hash": "2336a3eb2524c8e5e08264ec338a799f"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_reporting.py": {
+    "mtime": 1780459103.379959,
+    "ast_hash": "7a1fa6e4f58eb2aefb1b4fe1492eae9c",
+    "semantic_hash": "7a1fa6e4f58eb2aefb1b4fe1492eae9c"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_rolling.py": {
+    "mtime": 1780458743.1440651,
+    "ast_hash": "dcce622cae028970b6ed72882da80a5a",
+    "semantic_hash": "dcce622cae028970b6ed72882da80a5a"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/backend/tests/test_single.py": {
+    "mtime": 1780459234.5540824,
+    "ast_hash": "0a0278439eb13ac765344257db95ae81",
+    "semantic_hash": "0a0278439eb13ac765344257db95ae81"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/app/factor-attribution/page.tsx": {
+    "mtime": 1780459413.8280053,
+    "ast_hash": "c9908046f6bc2a7cbb35706ae11a7dd3",
+    "semantic_hash": "c9908046f6bc2a7cbb35706ae11a7dd3"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/app/layout.tsx": {
+    "mtime": 1780459277.0641637,
+    "ast_hash": "f2dac26e4a746a0c24a369bc17621c23",
+    "semantic_hash": "f2dac26e4a746a0c24a369bc17621c23"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/app/page.tsx": {
+    "mtime": 1780459321.6489534,
+    "ast_hash": "a063fbbae06fca27d0c2375602b9b0f9",
+    "semantic_hash": "a063fbbae06fca27d0c2375602b9b0f9"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/components/factor-app/AlphaVerdict.tsx": {
+    "mtime": 1780459374.1631613,
+    "ast_hash": "10b764c4d0ee8f0dad139110f1df1a7f",
+    "semantic_hash": "10b764c4d0ee8f0dad139110f1df1a7f"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/components/factor-app/InputPanel.tsx": {
+    "mtime": 1780459350.5732825,
+    "ast_hash": "95da7167a4db819b9e21d375683a9e2c",
+    "semantic_hash": "95da7167a4db819b9e21d375683a9e2c"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/components/factor-app/PlotlyChart.tsx": {
+    "mtime": 1780459381.3298306,
+    "ast_hash": "bedae68a464e526916016bcbe0084dd2",
+    "semantic_hash": "bedae68a464e526916016bcbe0084dd2"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/components/factor-app/RegressionTable.tsx": {
+    "mtime": 1780459365.8482282,
+    "ast_hash": "2757d9491aef00ca99d42c9ba043e793",
+    "semantic_hash": "2757d9491aef00ca99d42c9ba043e793"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/components/factor-app/ResultsPanel.tsx": {
+    "mtime": 1780459395.3959873,
+    "ast_hash": "2938d69f82c79255a0445cece2e03e50",
+    "semantic_hash": "2938d69f82c79255a0445cece2e03e50"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/lib/api.ts": {
+    "mtime": 1780458671.5142221,
+    "ast_hash": "856480cbe56a5156c32e67e07647f83a",
+    "semantic_hash": "856480cbe56a5156c32e67e07647f83a"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/lib/types.ts": {
+    "mtime": 1780458666.308531,
+    "ast_hash": "b50b24f6e6b3412f051c24984d43b50a",
+    "semantic_hash": "b50b24f6e6b3412f051c24984d43b50a"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/next-env.d.ts": {
+    "mtime": 1780459649.655571,
+    "ast_hash": "d0f8375ae1199dc7acd3977fc33b78b8",
+    "semantic_hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/next.config.ts": {
+    "mtime": 1780458587.7248363,
+    "ast_hash": "9b77af189a21a7a64e4bd7a426f64176",
+    "semantic_hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/package.json": {
+    "mtime": 1780458643.089047,
+    "ast_hash": "8f711c6ebaa8175ffdceca93f5b168e9",
+    "semantic_hash": "8f711c6ebaa8175ffdceca93f5b168e9"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/postcss.config.mjs": {
+    "mtime": 1780458587.7248497,
+    "ast_hash": "239f3ebf717465dc636818a1a619398d",
+    "semantic_hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "/Users/praveen/Desktop/factor-attribution-engine/frontend/tsconfig.json": {
+    "mtime": 1780458587.7255857,
+    "ast_hash": "02fc19ad21338c2ab820a70136310db4",
+    "semantic_hash": "02fc19ad21338c2ab820a70136310db4"
+  }
+}
