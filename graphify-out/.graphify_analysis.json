@@ -1,0 +1,562 @@
+{
+  "communities": {
+    "0": [
+      "concept_factor_attribution",
+      "concept_ff3",
+      "concept_ff4",
+      "concept_kenneth_french_library",
+      "concept_newey_west",
+      "concept_ols_regression",
+      "concept_pandas_datareader",
+      "concept_rolling_regression",
+      "concept_statsmodels",
+      "concept_yfinance",
+      "plan_align_py",
+      "plan_cli_py",
+      "plan_compare_py",
+      "plan_diagnostics_py",
+      "plan_factor_attribution_engine",
+      "plan_french_py",
+      "plan_milestone1",
+      "plan_milestone2",
+      "plan_milestone3",
+      "plan_milestone4",
+      "plan_notebook_01",
+      "plan_notebook_02",
+      "plan_notebook_03",
+      "plan_notebook_04",
+      "plan_ols_py",
+      "plan_plots_py",
+      "plan_portfolio_py",
+      "plan_prices_py",
+      "plan_rolling_py",
+      "plan_single_py",
+      "plan_tables_py",
+      "plan_test_align",
+      "plan_test_compare",
+      "plan_test_diagnostics",
+      "plan_test_french",
+      "plan_test_ols",
+      "plan_test_portfolio",
+      "plan_test_prices",
+      "plan_test_rolling"
+    ],
+    "1": [
+      "attribution_single",
+      "attribution_single_attributionresult",
+      "attribution_single_run_single_attribution",
+      "backend_src_attribution_single_py_bool",
+      "backend_src_attribution_single_py_int",
+      "backend_src_attribution_single_py_str",
+      "backend_src_reporting_tables_py_float",
+      "backend_src_reporting_tables_py_olsresult",
+      "backend_src_reporting_tables_py_str",
+      "backend_tests_test_reporting_py_float",
+      "backend_tests_test_reporting_py_olsresult",
+      "backend_tests_test_single_py_int",
+      "backend_tests_test_single_py_series",
+      "models_ols_olsresult",
+      "reporting_tables",
+      "reporting_tables_build_verdict",
+      "reporting_tables_significance_stars",
+      "tests_test_reporting",
+      "tests_test_reporting_make_result",
+      "tests_test_reporting_testbuildverdict",
+      "tests_test_reporting_testbuildverdict_test_mentions_adj_r2",
+      "tests_test_reporting_testbuildverdict_test_mentions_alpha_not_significant",
+      "tests_test_reporting_testbuildverdict_test_mentions_primary_factor",
+      "tests_test_reporting_testsignificancestars",
+      "tests_test_reporting_testsignificancestars_test_double_star_below_five_pct",
+      "tests_test_reporting_testsignificancestars_test_no_star_above_ten_pct",
+      "tests_test_reporting_testsignificancestars_test_single_star_below_ten_pct",
+      "tests_test_reporting_testsignificancestars_test_triple_star_below_one_pct",
+      "tests_test_single",
+      "tests_test_single_make_prices",
+      "tests_test_single_testrunsingleattribution",
+      "tests_test_single_testrunsingleattribution_test_ols_result_has_betas",
+      "tests_test_single_testrunsingleattribution_test_returns_attribution_result",
+      "tests_test_single_testrunsingleattribution_test_rolling_df_empty_when_too_few_obs",
+      "tests_test_single_testrunsingleattribution_test_rolling_df_populated_when_enough_data",
+      "tests_test_single_testrunsingleattribution_test_ticker_stored_on_result"
+    ],
+    "2": [
+      "backend_src_data_french_py_dataframe",
+      "backend_src_data_french_py_str",
+      "backend_tests_test_french_py_dataframe",
+      "backend_tests_test_french_py_int",
+      "bytes",
+      "data_french",
+      "data_french_download_zip",
+      "data_french_fetch_factors",
+      "data_french_fetch_ff3",
+      "data_french_fetch_ff4",
+      "data_french_fetch_ff5",
+      "data_french_load_raw",
+      "data_french_parse_ff3",
+      "data_french_parse_ff4",
+      "data_french_parse_ff5",
+      "data_french_parse_french_csv",
+      "data_french_rationale_1",
+      "data_french_rationale_32",
+      "data_french_to_date_index",
+      "tests_test_french",
+      "tests_test_french_make_raw_ff3_parsed",
+      "tests_test_french_make_raw_ff5_parsed",
+      "tests_test_french_make_raw_mom_parsed",
+      "tests_test_french_rationale_8",
+      "tests_test_french_testparseff3",
+      "tests_test_french_testparseff3_test_index_is_datetime",
+      "tests_test_french_testparseff3_test_output_columns",
+      "tests_test_french_testparseff3_test_values_divided_by_100",
+      "tests_test_french_testparseff3_test_values_in_valid_range",
+      "tests_test_french_testparseff4_test_mom_divided_by_100",
+      "tests_test_french_testparseff5_test_rmw_cma_divided_by_100",
+      "tests_test_ols_testrunols_test_r2_in_valid_range"
+    ],
+    "3": [
+      "factor_app_alphaverdict",
+      "factor_app_alphaverdict_props",
+      "factor_app_inputpanel",
+      "factor_app_inputpanel_models",
+      "factor_app_inputpanel_props",
+      "factor_app_plotlychart",
+      "factor_app_plotlychart_plot",
+      "factor_app_plotlychart_props",
+      "factor_app_regressiontable",
+      "factor_app_regressiontable_fmtbeta",
+      "factor_app_regressiontable_fmtpval",
+      "factor_app_regressiontable_props",
+      "factor_app_regressiontable_sig_colors",
+      "factor_app_resultspanel",
+      "factor_app_resultspanel_props",
+      "factor_attribution_page",
+      "factor_attribution_page_factorattributionpage",
+      "lib_api",
+      "lib_api_analyze",
+      "lib_api_healthcheck",
+      "lib_types",
+      "lib_types_analyzerequest",
+      "lib_types_analyzeresponse",
+      "lib_types_apierror",
+      "lib_types_coefficient",
+      "lib_types_modeltype",
+      "lib_types_rollingbetas",
+      "lib_types_setype",
+      "lib_types_singleticker",
+      "lib_types_weightedticker"
+    ],
+    "4": [
+      "backend_src_models_ols_py_bool",
+      "backend_src_models_ols_py_dataframe",
+      "backend_src_models_ols_py_series",
+      "backend_tests_test_ols_py_dataframe",
+      "backend_tests_test_ols_py_int",
+      "backend_tests_test_ols_py_series",
+      "models_ols",
+      "models_ols_run_ols",
+      "tests_test_ols",
+      "tests_test_ols_make_known_regression",
+      "tests_test_ols_rationale_77",
+      "tests_test_ols_rationale_8",
+      "tests_test_ols_testrunols",
+      "tests_test_ols_testrunols_test_adj_r2_less_than_r2",
+      "tests_test_ols_testrunols_test_alpha_ci_is_two_element_tuple",
+      "tests_test_ols_testrunols_test_alpha_near_true_value",
+      "tests_test_ols_testrunols_test_hac_se_differs_from_ols_se",
+      "tests_test_ols_testrunols_test_mkt_beta_near_true_value",
+      "tests_test_ols_testrunols_test_nobs_matches_input",
+      "tests_test_ols_testrunols_test_pvalues_in_zero_one",
+      "tests_test_ols_testrunols_test_returns_ols_result",
+      "tests_test_ols_testrunols_test_se_type_hac_by_default",
+      "tests_test_ols_testrunols_test_tvalues_are_finite",
+      "tests_test_ols_testrunols_test_vanilla_ols_se_type"
+    ],
+    "5": [
+      "backend_src_reporting_plots_py_dataframe",
+      "backend_src_reporting_plots_py_olsresult",
+      "backend_src_reporting_plots_py_str",
+      "backend_tests_test_plots_py_dataframe",
+      "backend_tests_test_plots_py_int",
+      "backend_tests_test_plots_py_olsresult",
+      "reporting_plots",
+      "reporting_plots_actual_vs_predicted_chart",
+      "reporting_plots_base_layout",
+      "reporting_plots_factor_loadings_chart",
+      "reporting_plots_rolling_beta_chart",
+      "tests_test_plots",
+      "tests_test_plots_make_aligned_df",
+      "tests_test_plots_make_ols_result",
+      "tests_test_plots_make_rolling_df",
+      "tests_test_plots_testactualvspredictedchart",
+      "tests_test_plots_testactualvspredictedchart_test_has_multiple_traces",
+      "tests_test_plots_testfactorloadingschart",
+      "tests_test_plots_testfactorloadingschart_test_chart_has_all_factors",
+      "tests_test_plots_testfactorloadingschart_test_has_bar_trace",
+      "tests_test_plots_testrollingbetachart",
+      "tests_test_plots_testrollingbetachart_test_empty_df_returns_empty_json",
+      "tests_test_plots_testrollingbetachart_test_has_scatter_traces",
+      "tests_test_plots_testrollingbetachart_test_returns_valid_json_string"
+    ],
+    "6": [
+      "backend_src_data_align_py_dataframe",
+      "backend_src_data_align_py_series",
+      "backend_tests_test_align_py_dataframe",
+      "backend_tests_test_align_py_int",
+      "backend_tests_test_align_py_series",
+      "backend_tests_test_single_py_dataframe",
+      "data_align",
+      "data_align_align_data",
+      "data_align_compute_excess_returns",
+      "tests_test_align",
+      "tests_test_align_make_price_series",
+      "tests_test_align_testaligndata",
+      "tests_test_align_testaligndata_test_excess_returns_in_valid_range",
+      "tests_test_align_testaligndata_test_inner_join_respects_overlap",
+      "tests_test_align_testaligndata_test_minimum_observations_required",
+      "tests_test_align_testaligndata_test_no_nan_after_alignment",
+      "tests_test_align_testaligndata_test_output_columns",
+      "tests_test_align_testcomputeexcessreturns",
+      "tests_test_align_testcomputeexcessreturns_test_excess_return_is_return_minus_rf",
+      "tests_test_align_testcomputeexcessreturns_test_returns_are_simple_not_log",
+      "tests_test_align_testcomputeexcessreturns_test_subtracts_rf_from_returns",
+      "tests_test_single_make_factors"
+    ],
+    "7": [
+      "frontend_package",
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_next",
+      "frontend_package_dependencies_plotly_js_dist_min",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_dependencies_react_plotly_js",
+      "frontend_package_dependencies_types_react_plotly_js",
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_tailwindcss",
+      "frontend_package_devdependencies_tailwindcss_postcss",
+      "frontend_package_devdependencies_types_node",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_typescript",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_start",
+      "frontend_package_version"
+    ],
+    "8": [
+      "frontend_tsconfig",
+      "frontend_tsconfig_compileroptions",
+      "frontend_tsconfig_compileroptions_allowjs",
+      "frontend_tsconfig_compileroptions_esmoduleinterop",
+      "frontend_tsconfig_compileroptions_incremental",
+      "frontend_tsconfig_compileroptions_isolatedmodules",
+      "frontend_tsconfig_compileroptions_jsx",
+      "frontend_tsconfig_compileroptions_lib",
+      "frontend_tsconfig_compileroptions_module",
+      "frontend_tsconfig_compileroptions_moduleresolution",
+      "frontend_tsconfig_compileroptions_noemit",
+      "frontend_tsconfig_compileroptions_paths",
+      "frontend_tsconfig_compileroptions_plugins",
+      "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "frontend_tsconfig_compileroptions_skiplibcheck",
+      "frontend_tsconfig_compileroptions_strict",
+      "frontend_tsconfig_compileroptions_target",
+      "frontend_tsconfig_exclude",
+      "frontend_tsconfig_include",
+      "frontend_tsconfig_paths"
+    ],
+    "9": [
+      "attribution_portfolio",
+      "attribution_portfolio_compute_portfolio_returns",
+      "backend_src_attribution_portfolio_py_float",
+      "backend_src_attribution_portfolio_py_series",
+      "backend_src_attribution_portfolio_py_str",
+      "backend_tests_test_portfolio_py_float",
+      "backend_tests_test_portfolio_py_int",
+      "backend_tests_test_portfolio_py_series",
+      "tests_test_portfolio",
+      "tests_test_portfolio_make_return_series",
+      "tests_test_portfolio_testcomputeportfolioreturns",
+      "tests_test_portfolio_testcomputeportfolioreturns_test_equal_weight_two_stocks",
+      "tests_test_portfolio_testcomputeportfolioreturns_test_output_is_series",
+      "tests_test_portfolio_testcomputeportfolioreturns_test_overlapping_date_range_used",
+      "tests_test_portfolio_testcomputeportfolioreturns_test_single_stock_100pct_returns_same_series",
+      "tests_test_portfolio_testcomputeportfolioreturns_test_weights_not_summing_to_one_raises"
+    ],
+    "10": [
+      "backend_src_models_rolling_py_bool",
+      "backend_src_models_rolling_py_dataframe",
+      "backend_src_models_rolling_py_int",
+      "backend_tests_test_rolling_py_dataframe",
+      "backend_tests_test_rolling_py_int",
+      "models_rolling",
+      "models_rolling_rolling_regression",
+      "tests_test_rolling",
+      "tests_test_rolling_make_aligned_df",
+      "tests_test_rolling_testrollingregression",
+      "tests_test_rolling_testrollingregression_test_all_betas_finite",
+      "tests_test_rolling_testrollingregression_test_custom_window",
+      "tests_test_rolling_testrollingregression_test_index_is_datetime",
+      "tests_test_rolling_testrollingregression_test_output_columns_include_betas",
+      "tests_test_rolling_testrollingregression_test_output_length",
+      "tests_test_rolling_testrollingregression_test_window_too_large_raises"
+    ],
+    "11": [
+      "backend_src_data_prices_py_series",
+      "backend_src_data_prices_py_str",
+      "data_prices",
+      "data_prices_compute_simple_returns",
+      "data_prices_fetch_monthly_prices",
+      "tests_test_prices",
+      "tests_test_prices_testcomputesimplereturns",
+      "tests_test_prices_testcomputesimplereturns_test_assertion_on_invalid_returns",
+      "tests_test_prices_testcomputesimplereturns_test_known_return_value",
+      "tests_test_prices_testcomputesimplereturns_test_length_is_n_minus_one",
+      "tests_test_prices_testcomputesimplereturns_test_no_nan_in_result",
+      "tests_test_prices_testcomputesimplereturns_test_returns_series"
+    ],
+    "12": [
+      "backend_tests_conftest_py_dataframe",
+      "backend_tests_conftest_py_series",
+      "tests_conftest",
+      "tests_conftest_aligned_df",
+      "tests_conftest_factor_data",
+      "tests_conftest_factor_data_ff4",
+      "tests_conftest_price_series",
+      "tests_conftest_rationale_41",
+      "tests_conftest_rationale_50",
+      "tests_conftest_rationale_8"
+    ],
+    "13": [
+      "backend_api_routes_analyze_py_str",
+      "basemodel",
+      "routes_analyze",
+      "routes_analyze_analyze",
+      "routes_analyze_analyzerequest",
+      "routes_analyze_analyzerequest_validate_mode",
+      "routes_analyze_to_api_date",
+      "routes_analyze_weightedticker"
+    ],
+    "14": [
+      "agents_nextjs_agent_rules",
+      "claude_agent_config",
+      "concept_nextjs",
+      "concept_vercel",
+      "readme_nextjs_project",
+      "svg_next_logo",
+      "svg_vercel_logo"
+    ],
+    "15": [
+      "app_layout",
+      "app_layout_metadata",
+      "app_layout_mono",
+      "app_layout_rootlayout"
+    ],
+    "16": [
+      "app_page",
+      "app_page_home",
+      "app_page_projects"
+    ],
+    "17": [
+      "claude_settings_local",
+      "claude_settings_local_permissions",
+      "claude_settings_local_permissions_allow"
+    ],
+    "18": [
+      "api_main",
+      "api_main_health"
+    ],
+    "19": [
+      "frontend_postcss_config",
+      "frontend_postcss_config_config"
+    ],
+    "20": [
+      "api_init"
+    ],
+    "21": [
+      "attribution_init"
+    ],
+    "22": [
+      "data_init"
+    ],
+    "23": [
+      "frontend_next_config"
+    ],
+    "24": [
+      "frontend_next_env_d"
+    ],
+    "25": [
+      "models_init"
+    ],
+    "26": [
+      "reporting_init"
+    ],
+    "27": [
+      "routes_init"
+    ],
+    "28": [
+      "src_init"
+    ],
+    "29": [
+      "svg_file_icon"
+    ],
+    "30": [
+      "svg_globe_icon"
+    ],
+    "31": [
+      "svg_window_icon"
+    ],
+    "32": [
+      "tests_init"
+    ]
+  },
+  "cohesion": {
+    "0": 0.10121457489878542,
+    "1": 0.10634920634920635,
+    "2": 0.16129032258064516,
+    "3": 0.10344827586206896,
+    "4": 0.16304347826086957,
+    "5": 0.18115942028985507,
+    "6": 0.2077922077922078,
+    "7": 0.09523809523809523,
+    "8": 0.1,
+    "9": 0.20833333333333334,
+    "10": 0.21666666666666667,
+    "11": 0.24242424242424243,
+    "12": 0.24444444444444444,
+    "13": 0.42857142857142855,
+    "14": 0.2857142857142857,
+    "15": 0.5,
+    "16": 0.6666666666666666,
+    "17": 0.6666666666666666,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0,
+    "32": 1.0
+  },
+  "gods": [
+    {
+      "id": "models_ols_olsresult",
+      "label": "OLSResult",
+      "degree": 26
+    },
+    {
+      "id": "models_ols_run_ols",
+      "label": "run_ols()",
+      "degree": 20
+    },
+    {
+      "id": "tests_test_single_make_factors",
+      "label": "make_factors()",
+      "degree": 19
+    },
+    {
+      "id": "routes_analyze_analyze",
+      "label": "analyze()",
+      "degree": 16
+    },
+    {
+      "id": "attribution_single_run_single_attribution",
+      "label": "run_single_attribution()",
+      "degree": 16
+    },
+    {
+      "id": "tests_test_ols_make_known_regression",
+      "label": "make_known_regression()",
+      "degree": 16
+    },
+    {
+      "id": "frontend_tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 16
+    },
+    {
+      "id": "tests_test_ols_testrunols",
+      "label": "TestRunOLS",
+      "degree": 14
+    },
+    {
+      "id": "models_rolling_rolling_regression",
+      "label": "rolling_regression()",
+      "degree": 13
+    },
+    {
+      "id": "plan_milestone1",
+      "label": "Milestone 1: Single-Stock Attribution (FF3)",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "DataFrame",
+      "target": "AttributionResult",
+      "source_files": [
+        "backend/tests/test_single.py",
+        "backend/src/attribution/single.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `DataFrame` unexpectedly reaches hub `AttributionResult`"
+    },
+    {
+      "source": "int",
+      "target": "OLSResult",
+      "source_files": [
+        "backend/tests/test_ols.py",
+        "backend/src/models/ols.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `int` unexpectedly reaches hub `OLSResult`"
+    },
+    {
+      "source": "OLSResult",
+      "target": "OLSResult",
+      "source_files": [
+        "backend/tests/test_plots.py",
+        "backend/src/models/ols.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities; peripheral node `OLSResult` unexpectedly reaches hub `OLSResult`"
+    },
+    {
+      "source": "Next.js Logo SVG",
+      "target": "Next.js Framework",
+      "source_files": [
+        "frontend/public/next.svg",
+        "frontend/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image \u2194 doc)"
+    },
+    {
+      "source": "Vercel Logo SVG",
+      "target": "Vercel Deployment Platform",
+      "source_files": [
+        "frontend/public/vercel.svg",
+        "frontend/README.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (image \u2194 doc)"
+    }
+  ],
+  "tokens": {
+    "input": 9656,
+    "output": 13403
+  }
+}
